@@ -11,4 +11,4 @@ Chatbot for the purpose of COVID-19
 #intents.json file includes the dataset created for this project
 
 
-#chatbot.py is for strating the gui and also includes the code to build the gui
+#chatbot.py is for starting the gui and also includes the code to build the gui
