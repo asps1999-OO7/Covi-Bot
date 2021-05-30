@@ -2,7 +2,7 @@
 Chatbot for the purpose of COVID-19
 
 
-#.h5 file includes the pretrained dataset
+#.h5 file includes the pretrained model/bot
 
 
 #train.py is for training the bot
