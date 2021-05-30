@@ -1,0 +1,86 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Hello", "Is anyone there?","Hey","Hola", "Hi, good to see you" ],
+         "responses": ["Hello", "Good to see you too", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting with you, bye", "Till next time", "see ya"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand","Can you provide more details"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How can you help me?", "What can you do?", "What help can you provide?", "How can you be helpful?", "What support is offered", "Can you help me?"],
+         "responses": ["I can guide you through searching of certain medicines, blood pressure tracking, medicines related to COVID-19, hospitals and pharmacies"],
+         "context": [""]
+        },
+
+        {"tag": "covid",
+         "patterns": ["What is the current covid status in India?", "What is the current covid status in the world?", "current covid status", "list of coronavirus positive cases", "Number of positive cases"],
+         "responses": ["https://www.worldometers.info/coronavirus/"],
+         "context": [""]
+        },
+        {"tag": "beds",
+         "patterns": ["How can I find available beds in my area?", "available beds in my city", "beds and hospitals", "nearest hospitals", "urgent oxygen cylinders needed", "ventilators", "oxygen refill", "how can i find beds"],
+         "responses": ["This link will help you get required covid-19 medical resources - https://covid-resources-chi.vercel.app/"],
+         "context": [""]
+        },
+        {"tag": "plasma",
+         "patterns": ["What is plasma?", "Who can donate plasma?", "When can one donate plasma?", "When can I donate plasma?", "Why should one donate plasma?", "Where can I donate plasma?", "Where can one donate plasma", "urgent plasma needed"],
+         "responses": ["Plasma is a yellow colored component consisting of 55% of your total body blood which can be separated from blood through centrifugation. A COVID survivor (after 28 days of recovery) can donate plasma because it contains stored antibodies that can fight coronavirus. You can donate it here https://plasmadonor.in/ "],
+         "context": [""]
+        },
+        
+        
+        {"tag": "black fungus",
+         "patterns": ["what is black fungus", "how to detect black fungus", "is black fungus related to blood oxygen level", "where is it found"],
+         "responses": ["Black Fungus is a non-contagious fungus which grows in certain part of body and damage it generally caused by micromycetes. Swollen or red eye, chest pain, throat pain or blackening at upper portion of your mouth, nasal blockage, bleeding, discharge from the nose are some of the common symptoms of this fungal infection."],
+         "context": ["search_blood_pressure_by_patient_id"]
+        },
+        {"tag": "black fungus",
+         "patterns": ["who are prone to black fungus", "Is black fungus related to blood oxygen level", "where is black fungus found"],
+         "responses": ["Patients who are recovering from covid, diabetic patients, patients who are on steroids are most likely to suffer from black fungus. It doesn't affect your blood oxygen level. It is generally found in dirty places, soil, contruction site etc."],
+         "context": ["search_blood_pressure_by_patient_id"]
+        },
+        {"tag": "oxygen",
+         "patterns": ["Where to find oxygen cylinder"],
+         "responses": ["contact on 9711170220/8696496094/8587534472/9654418883"],
+         "context": [""]
+        },
+        {"tag": "remdisiver",
+         "patterns": ["where can i find remdisiver", "price of a remdisiver injection", "when to take it", "should i store it in home", "side effects of remdisiver" ,"what is remdesiver"],
+         "responses": ["Remdesivir, sold under the brand name Veklury, is a broad-spectrum antiviral medication developed by the biopharmaceutical companys, price of one injection may vary upto 5000 Rs. One should take only after doctors prescription, and if doctor asks you to keep stock of it and permit you in written then only you can keep 1-2 in stock in your home. Sideffects of Remdisiver are, An infusion reaction may occur with remdesivir with symptoms such as low blood pressure, nausea, vomiting, sweating, and shivering. "],
+         "context": [""]
+        },
+        {"tag": "recovery",
+         "patterns": ["upto how many days should I take medicine if affected by covid", "how much time does it take to completely recover from covid", "what to eat in recovery phase"],
+         "responses": ["Take doctors's consultation but the due course is of 14 days. To get the regular immunity back it will take months but for general working pupose it can be recoverd after 20-25 days of testing negative from covid. Eat those items which are rich in Vitamin C, eat lots of fruits, take full meal as you do regularly"],
+         "context": [""]
+        },
+        {"tag": "mask",
+         "patterns": ["how many masks to use outside", "how many masks to use inside home", "time period to change masks", "what kind of mask to use", "is home made masks are sufficient" ],
+         "responses": ["Double mask is necessary to be on the safer side, single if no one is affected in the house, if using surgical mask then change it after every 4 hours, if home made mask then wash it after time to time. If the mask have atleast 3 layers then it is sufficient inside the home"],
+         "context": [""]
+        },
+        {"tag": "sanitizer",
+         "patterns": ["which sanitizer should be bought","how many times to sanitize hands", "is santization enough", "washing hands with soap is enough"],
+         "responses": ["Any sanitizer with minimum 60% alcohol content is fine, whenever you touch anything outside and after 20 min minutes if you are outside, for atleast 1-2 minutes. Sanitiation outside is enough but at home you should mostly try to wash hands for atleast 40-60 sec from all the angle and part of palm"],
+         "context": [""]
+        },
+        {"tag": "search_hospital_by_type",
+         "patterns": [],
+         "responses": ["Loading details"],
+         "context": [""]
+        }
+   ]
+}
